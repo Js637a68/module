@@ -35,11 +35,10 @@
             "request": "launch",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
             "args": [
-                "192.168.75.153",
-                "12345"
+                "-lpthread"
             ],
             "stopAtEntry": false,
-            "cwd": "${fileDirname}",
+            "cwd": "${workspaceFolder}/thread_pool/threadpool",
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
